@@ -324,7 +324,7 @@ button.btn:hover {
 
 #cookie {
     position: fixed;
-    display: flex;
+    display: none;
     left: 30px;
     bottom: 30px;
     padding: 20px;

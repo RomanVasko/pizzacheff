@@ -48,6 +48,11 @@ $(document).ready(() => {
         localStorage.setItem('cookieHide', '1');
     });
 
+    let cookieHide = localStorage.getItem('cookieHide');
+    if (!cookieHide) {
+        $('#cookie').show();
+    }
+
     document.getElementById('burger').onclick = function () {
         document.getElementById('menu').classList.add('open');
     };
