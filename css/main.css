@@ -1,0 +1,474 @@
+@font-face {
+    font-family: "MullerBlack";
+    src: url("../fonts/MullerBlack.ttf");
+}
+
+@font-face {
+    font-family: "Muller";
+    src: url("../fonts/MullerRegular.ttf");
+}
+
+@font-face {
+    font-family: "Muller ExtraBold";
+    src: url("../fonts/MullerExtraBold.ttf");
+}
+
+@font-face {
+    font-family: "MullerBold";
+    src: url("../fonts/MullerBold.ttf");
+}
+
+body {
+    font-family: Muller, sans-serif;
+    margin: 0;
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 24px;
+    font-family: "MullerBlack", sans-serif;
+    color: rgb(255, 196, 104);
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 85px;
+    margin-left: 8px;
+}
+
+#menu {
+    width: 490px;
+    margin: 0 261px 0 248px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu a {
+    font-size: 16px;
+    color: rgb(164, 107, 0);
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-info {
+    max-width: 662px;
+}
+
+#main-info h1 {
+    font-size: 45px;
+    font-family: "Muller ExtraBold", sans-serif;
+    color: rgb(185, 145, 80);
+    font-weight: bold;
+    line-height: 1.222;
+    margin: 0;
+}
+
+#main-info h1 span {
+    color: #ffaf18;
+}
+
+#main-advantages {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#main-advantages .advantage {
+    max-width: 292px;
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+}
+
+.advantage .advantage-text {
+    margin-left: 16px;
+}
+
+.advantage .advantage-title {
+    font-size: 16px;
+    font-family: "MullerExtraBold", sans-serif;
+    color: rgb(255, 175, 24);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.advantage .advantage-description {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: rgb(255, 175, 24);
+    font-family: "MullerBold", sans-serif;
+    font-size: 16px;
+    color: rgb(56, 36, 0);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 22px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#main-action {
+    margin-top: 60px;
+}
+
+#main-action .btn {
+    width: 224px;
+    display: inline-block;
+}
+
+#products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 161px;
+}
+
+#products-title {
+    font-size: 35px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(189, 152, 92);
+    text-align: center;
+}
+
+#products-items {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    width: 282px;
+    text-align: center;
+    padding: 27px 20px 15px 20px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+}
+
+.product-title {
+    font-size: 18px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(56, 36, 0);
+    margin-top: 15px;
+}
+
+.product .product-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    height: 49px;
+    margin-top: 17px;
+}
+
+.product .product-button.btn {
+    border: 0;
+    outline: 0;
+    padding: 17px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.product .product-image {
+    height: 155px;
+}
+
+#order {
+    overflow: hidden;
+}
+
+#order-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 216px 0 115px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#order-form {
+    max-width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#order-text {
+    max-width: 384px;
+}
+
+.order-text-title {
+    font-size: 35px;
+    font-family: "Muller ExtraBold", sans-serif;
+    color: rgb(255, 175, 24);
+    line-height: 1.286;
+    margin-bottom: 65px;
+}
+
+.order-text-title span {
+    color: #b99150;
+}
+
+#order-text #order-text-message {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(185, 145, 80);
+}
+
+#order-form input {
+    width: 328px;
+    border: 1px solid rgb(185, 145, 80);
+    background-color: rgb(255, 255, 255);
+    padding: 23px;
+    box-sizing: border-box;
+    font-size: 18px;
+    outline: 0;
+    margin-bottom: 24px;
+}
+
+::placeholder {
+    color: rgb(203, 168, 110);
+}
+
+#order-form button.btn {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+
+button.btn:hover {
+    box-shadow: 0 0 0 2px #D2973D inset, 0 0 0 4px white inset;
+}
+
+#order-image {
+    position: relative;
+    width: 282px;
+}
+
+#order-image img {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+#footer {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+#rights {
+    font-size: 12px;
+    color: rgb(186, 179, 179);
+    margin-left: 358px;
+}
+
+#burger {
+    display: none;
+}
+
+#menu svg {
+    display: none;
+}
+
+#order-message {
+    max-width: 330px;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#order-form .error-input {
+    font-size: 14px;
+    color: red;
+    display: none;
+    margin-bottom: 10px;
+}
+
+#cookie {
+    position: fixed;
+    display: flex;
+    left: 30px;
+    bottom: 30px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+    max-width: 330px;
+}
+
+#cookie-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: MullerBold, sans-serif;
+}
+
+#cookie-title span {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#cookie-text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+#cookie-button .btn {
+    border: 0;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#loader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ffaf18;
+    margin: -4px 0 0 -4px;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+}
+
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+}
+
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+}
+
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
